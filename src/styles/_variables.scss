@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+//
+// Spacing
+// ---------------------
+
+$indent__base: 8px;
+$indent__s: $indent__base * .5; 
+$indent__m: $indent__base * 1.5;
+$indent__l: $indent__base * 2;
+$indent__xl: $indent__base * 4; 
+
+//
+// Fonts
+// ----------------------
+
+$font-square: 'Square Peg', sans-serif;
+$font-poiret: 'Poiret One', 'sans-serif';
+$font-shadows: 'Shadows Into Light', sans-serif;
+$font-poppins: 'Poppins', sans-serif;
+
+$font-size__base: 1rem; 
+$font-size__s: $font-size__base * .8;
+$font-size__m: $font-size__base * 1.6;
+$font-size__l: $font-size__base * 2;
+$font-size__xl: $font-size__base * 4;
+$font-size__xxl: $font-size__base * 6;
+
+//
+// Colors
+// ----------------------
+
+$white: #ffffff;
+$hover-blue: #98c1d9;
+$off-white: #edede9;
+$blue: #3d5a80;
+$beige: #ddbea9;
+$dark-blue: #293241;

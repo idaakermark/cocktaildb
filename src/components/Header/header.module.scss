@@ -1,0 +1,24 @@
+@import '../../App.scss';
+
+.header {
+
+
+    &__title {
+        color: $blue;
+        font: {
+            family: $font-square;
+            size: $font-size__xxl;
+        }
+        margin: $indent__xl;
+        text-align: center;
+    }
+
+    &__subtitle {
+        color: $beige;
+        font: {
+            family: $font-shadows;
+            size: $font-size__m;
+        }
+        text-align: center;
+    }
+}

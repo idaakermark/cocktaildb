@@ -1,0 +1,14 @@
+@import '../../App.scss';
+
+.footer {
+    background-color: $blue;
+    padding: $indent__base;
+
+    &__copyright {
+        color: $white;
+        font: {
+            family: $font-poiret;
+        }
+        text-align: center;
+    }
+}

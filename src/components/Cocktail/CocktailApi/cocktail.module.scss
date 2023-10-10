@@ -1,0 +1,41 @@
+@import '../../../App.scss';
+
+.cocktail {
+    color: $dark-blue;
+    font-family: $font-poppins;
+    @include flexbox;
+    padding: $indent__base;
+
+    &__image {
+        width: 100%;
+        max-width: 500px;
+        height:auto;
+    }
+
+    &__instructionstxt {
+        margin: 0;
+        max-width: 500px;
+    }
+
+    h2,
+    h3,
+    p,
+    ul {
+      text-align: center;
+    }
+}
+
+.generate {
+    @include flexbox;
+
+    &__button {
+        @include button-style;
+    }
+
+    &__input {
+        border: 1px solid $off-white;
+        border-radius: 8px;
+        margin: $indent__base;
+        padding: $indent__base;
+    }
+}

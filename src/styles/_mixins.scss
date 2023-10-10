@@ -1,0 +1,22 @@
+@mixin flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin button-style {
+    border: {
+        radius: 30px;
+        style: none;
+    }
+    background-color: $blue;
+    color: $white;
+    font-family: $font-poiret;
+    padding: $indent__base;
+
+    &:hover {
+        background-color: $hover-blue;
+        cursor: pointer;
+    }
+}
